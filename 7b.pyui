@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{118, 6}, {257, 57}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "title_of_program_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "33FCAD99-3EFC-41B7-9FB2-0500632892CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Fibonocci Sequence Generator",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 89}, {142, 46}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "generate_sequence_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Generate",
+          "uuid" : "410F2CD8-675D-4224-A59E-24135A26E72E",
+          "class" : "Button",
+          "name" : "generate_sequence_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{175, 89}, {150, 46}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pause_sequence_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Pause ",
+          "uuid" : "2A32F927-D784-4B59-B94D-2D69F7EE71D9",
+          "class" : "Button",
+          "name" : "pause_sequence_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 171}, {219, 121}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "2450E661-EF16-4598-81A9-5060F17D1B8E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "sequence_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{333, 89}, {141, 46}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "user_pause_duration_textfield",
+          "placeholder" : "How Long(s)?",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "469FA965-3CB7-4C7B-8190-824F73CDA145",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
